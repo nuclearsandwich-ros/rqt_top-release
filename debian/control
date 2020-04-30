@@ -1,0 +1,12 @@
+Source: ros-verystable-rqt-top
+Section: misc
+Priority: optional
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/rqt_top
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rqt-top
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-psutil, ros-verystable-python-qt-binding (>= 0.2.19), ros-verystable-rclpy, ros-verystable-rqt-gui, ros-verystable-rqt-gui-py, ros-verystable-ros-workspace
+Description: RQT plugin for monitoring ROS processes.
